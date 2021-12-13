@@ -18,6 +18,3 @@ CREATE TABLE IF NOT EXISTS register.`users` (
  `trn_date` datetime NOT NULL,
  PRIMARY KEY (`id`)
  );
-
-Source: http://www.allphptricks.com/
-Javed Ur Rehman
