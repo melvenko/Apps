@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("db684486805.db.1and1.com","dbo684486805","Inf0rm@ti0nRequestForm","db684486805");
+$con = mysqli_connect("db5006028797.hosting-data.io","dbu1537526","myNewPassword@123"," dbs5049760");
 // Check connection
 if (mysqli_connect_errno())
   {
