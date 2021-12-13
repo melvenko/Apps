@@ -26,8 +26,7 @@
 		$rows = mysqli_num_rows($result);
         if($rows==1){
 			$_SESSION['username'] = $username;
-			header("Location: administration.php"); // Redirect user to index.php
-			/* header("Location: /administration/index.php"); // Redirect user to index.php*/
+			header("Location: /administration/index.php"); // Redirect user to index.php
             }else{
 				echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
 				}
