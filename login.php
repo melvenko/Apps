@@ -15,9 +15,7 @@ img.truste_border_none.truste_cursor_pointer{
         width: 235px;
         height: 40px;
 }
-input[type='submit'] {
-	background-color: #d97004;
-}
+
 </style>
 <title>Melvenko Login</title>
 <link rel="stylesheet" href="style.css" />
@@ -56,7 +54,7 @@ input[type='submit'] {
 </form>
 <p>Not registered yet? <a href='registration.php'>Register Here</a></p>
 <br><div id="consent_blackbar"></div> 
-<br><div id="teconsent" style="display: none;"></div>
+<p><div id="teconsent" style="display: none;"></div></p>
 
 
 <?php } 
