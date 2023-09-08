@@ -54,7 +54,7 @@ img.truste_border_none.truste_cursor_pointer{
 </form>
 <p>Not registered yet? <a href='registration.php'>Register Here</a></p>
 <br><div id="consent_blackbar"></div> 
-<!-- <p><div id="teconsent" style="display: none;"></div></p> -->
+<p><div id="teconsent" style="display: none;"></div></p>
 
 
 <?php } 
