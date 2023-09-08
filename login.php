@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,10 +20,6 @@ img.truste_border_none.truste_cursor_pointer{
 .has-text-align-right{
 	display: none;
 }
-a {
-    color: #dd0582;
-    text-decoration: none;
-}
 
 </style>
 <title>Melvenko Login</title>
@@ -36,7 +29,25 @@ a {
 <?php
 	require('db.php');
 	session_start();
-    // If form submitted, insert values into the database.
+	echo "Session ID: ".SID."<br>The current session ID is: ".session_id()."<br>COOKIE: ".$_COOKIE["PHPSESSID"];
+// Set session variables
+$_SESSION["favcolor"] = "green";
+$_SESSION["favanimal"] = "cat";
+echo "<br><br> Session variables are set.";
+ $session_id = session_id();
+
+  // Output the session ID
+  //echo "The current session ID is: " . $session_id;
+
+if (empty($_SESSION['count'])) {
+   $_SESSION['count'] = 1;
+} else {
+   $_SESSION['count']++;
+}
+
+
+
+// If form submitted, insert values into the database.
     if (isset($_POST['username'])){
 		
 		$username = stripslashes($_REQUEST['username']); // removes backslashes
