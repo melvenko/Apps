@@ -1,7 +1,7 @@
-/*<?php
+//<?php
 
-require('db.php');*
-include("auth.php"); //include auth.php file on all secure pages ?>*/
+//require('db.php');*
+//include("auth.php"); //include auth.php file on all secure pages ?>
 <!--<!DOCTYPE html>
 <html>
 <head>
@@ -21,6 +21,7 @@ include("auth.php"); //include auth.php file on all secure pages ?>*/
 </div>
 </body>
 </html>-->
+
 <html>
   <head>
     <title>Welcome Aboard!</title>
