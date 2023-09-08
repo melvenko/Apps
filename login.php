@@ -56,6 +56,8 @@ a {
 				}
     }else{
 ?>
+<img src="/logo.png">
+<br>
 <div class="form">
 <h1>Log In</h1>
 <form action="" method="post" name="login">
@@ -65,11 +67,11 @@ a {
 </form>
 <p>Not registered yet? <a href='registration.php'>Register Here</a></p>
 
+<div id="consent_blackbar"></div> 
+<br><center><div id="teconsent" style="display: none;"></div></center>
 
 <?php } 
 ?>
-<div id="consent_blackbar"></div> 
-<br><center><div id="teconsent" style="display: none;"></div></center>
 
 
 
