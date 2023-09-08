@@ -25,6 +25,8 @@ img.truste_border_none.truste_cursor_pointer{
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+	<?php
+	include("auth.php"); //include auth.php file on all secure pages ?>
 <?php
 	require('db.php');
 	session_start();
