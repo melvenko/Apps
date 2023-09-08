@@ -62,7 +62,7 @@ img.truste_border_none.truste_cursor_pointer{
 <?php } 
 ?>
 <div id="consent_blackbar"></div> 
-<center><div id="teconsent" style="display: none;"></div></center>
+<br><center><div id="teconsent" style="display: none;"></div></center>
 
 
 
