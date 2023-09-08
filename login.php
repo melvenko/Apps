@@ -10,9 +10,11 @@
 	.truste_caIcon_display
 {
 	font-size: small;
-	color: #ffffff;
 }
-
+a {
+    color: #dd0582;
+    text-decoration: none;
+}
 img.truste_border_none.truste_cursor_pointer{
 	width: 235px;
 	height: 40px;
