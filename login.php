@@ -15,6 +15,9 @@ img.truste_border_none.truste_cursor_pointer{
         width: 235px;
         height: 40px;
 }
+input[type='submit'] {
+	background-color: #d97004;
+}
 </style>
 <title>Melvenko Login</title>
 <link rel="stylesheet" href="style.css" />
