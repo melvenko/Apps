@@ -27,5 +27,6 @@
     <title>Welcome Aboard!</title>
   </head>
   <body><h1>Welcome Aboard!</h1>
+    <h3><a href="/logout.php">Logout</a></h3>
   </body>
 </html>
