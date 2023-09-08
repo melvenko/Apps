@@ -5,6 +5,23 @@
 <html>
 <head>
 <meta charset="utf-8">
+<script src=//consent.trustarc.com/notice?domain=trustarc.com&c=teconsent&js=bb&noticeType=bb&pcookie></script>
+<style>
+	.truste_caIcon_display
+{
+	font-size: small;
+	color: #ffffff;
+}
+
+img.truste_border_none.truste_cursor_pointer{
+	width: 235px;
+	height: 40px;
+}
+/* New Image Size: 235px by 40 */
+.has-text-align-right{
+	display: none;
+}
+</style>
 <title>Melvenko Login</title>
 <link rel="stylesheet" href="style.css" />
 </head>
@@ -44,6 +61,9 @@
 
 <?php } 
 ?>
+<div id="consent_blackbar"></div> 
+<center><div id="teconsent" style="display: none;"></div></center>
+
 
 
 </body>
