@@ -21,6 +21,11 @@ img.truste_border_none.truste_cursor_pointer{
 .has-text-align-right{
 	display: none;
 }
+a {
+    color: #dd0582;
+    text-decoration: none;
+}
+
 </style>
 <title>Melvenko Login</title>
 <link rel="stylesheet" href="style.css" />
