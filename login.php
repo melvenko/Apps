@@ -56,7 +56,7 @@ a {
 				}
     }else{
 ?>
-<img src="/logo.png">
+<img src="/logo.png" style="width:251px;height:39.5px;">
 <br>
 <div class="form">
 <h1>Log In</h1>
