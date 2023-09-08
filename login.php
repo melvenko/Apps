@@ -29,22 +29,6 @@ img.truste_border_none.truste_cursor_pointer{
 <?php
 	require('db.php');
 	session_start();
-	echo "Session ID: ".SID."<br>The current session ID is: ".session_id()."<br>COOKIE: ".$_COOKIE["PHPSESSID"];
-// Set session variables
-$_SESSION["favcolor"] = "green";
-$_SESSION["favanimal"] = "cat";
-echo "<br><br> Session variables are set.";
- $session_id = session_id();
-
-  // Output the session ID
-  //echo "The current session ID is: " . $session_id;
-
-if (empty($_SESSION['count'])) {
-   $_SESSION['count'] = 1;
-} else {
-   $_SESSION['count']++;
-}
-
 
 
 // If form submitted, insert values into the database.
@@ -61,7 +45,7 @@ if (empty($_SESSION['count'])) {
 		$rows = mysqli_num_rows($result);
         if($rows==1){
 			$_SESSION['username'] = $username;
-			header("Location: /dashboard.php"); // Redirect user to index.php
+			header("Location: /dashboard.php"); // Redirect user to dashboard.php
             }else{
 				echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
 				}
