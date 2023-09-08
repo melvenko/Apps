@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,31 +9,21 @@
 <style>
 .truste_caIcon_display
 {
-	font-size: small;
-}
-a {
-    color: #dd0582;
-    text-decoration: none;
+        font-size: small;
 }
 img.truste_border_none.truste_cursor_pointer{
-	width: 235px;
-	height: 40px;
+        width: 235px;
+        height: 40px;
 }
-.has-text-align-right{
-	display: none;
-}
-
 </style>
 <title>Melvenko Login</title>
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-	<?php
-	include("auth.php"); //include auth.php file on all secure pages ?>
 <?php
 	require('db.php');
 	session_start();
-// If form submitted, insert values into the database.
+    // If form submitted, insert values into the database.
     if (isset($_POST['username'])){
 		
 		$username = stripslashes($_REQUEST['username']); // removes backslashes
@@ -44,14 +37,13 @@ img.truste_border_none.truste_cursor_pointer{
 		$rows = mysqli_num_rows($result);
         if($rows==1){
 			$_SESSION['username'] = $username;
-			header("Location: /dashboard.php"); // Redirect user to dashboard.php
+			header("Location: /dashboard.php"); // Redirect user to index.php
             }else{
 				echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
 				}
     }else{
 ?>
 <img src="/logo.png" style="width:251px;height:39.5px;">
-<br>
 <div class="form">
 <h1>Log In</h1>
 <form action="" method="post" name="login">
@@ -60,13 +52,12 @@ img.truste_border_none.truste_cursor_pointer{
 <input name="submit" type="submit" value="Login" />
 </form>
 <p>Not registered yet? <a href='registration.php'>Register Here</a></p>
+<br><div id="consent_blackbar"></div> 
+<br><div id="teconsent" style="display: none;"></div>
 
-<div id="consent_blackbar"></div> 
-<br><center><div id="teconsent" style="display: none;"></div></center>
 
 <?php } 
 ?>
-
 
 
 </body>
