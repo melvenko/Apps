@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <script src=//consent.trustarc.com/notice?domain=trustarc.com&c=teconsent&js=bb&noticeType=bb&pcookie></script>
 <style>
-	.truste_caIcon_display
+.truste_caIcon_display
 {
 	font-size: small;
 }
@@ -16,7 +16,6 @@ img.truste_border_none.truste_cursor_pointer{
 	width: 235px;
 	height: 40px;
 }
-/* New Image Size: 235px by 40 */
 .has-text-align-right{
 	display: none;
 }
@@ -29,8 +28,6 @@ img.truste_border_none.truste_cursor_pointer{
 <?php
 	require('db.php');
 	session_start();
-
-
 // If form submitted, insert values into the database.
     if (isset($_POST['username'])){
 		
