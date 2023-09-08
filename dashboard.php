@@ -12,7 +12,7 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 <body>
 <div class="form">
 <p>Dashboard</p>
-<p>This is another secured page.</p>
+<p><h2>You have arrived!</h2>h2</p>
 <p><a href="index.php">Home</a></p>
 <a href="logout.php">Logout</a>
 
