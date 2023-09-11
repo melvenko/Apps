@@ -29,8 +29,8 @@ img.truste_border_none.truste_cursor_pointer{
 </head>
 <body>
 
-<!-- <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQLLZBP3"
+<!--  Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQLLZBP3"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 <!-- End Google Tag Manager (noscript) -->
 	
