@@ -12,7 +12,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WQLLZBP3');</script>
 <!-- End Google Tag Manager -->
-<!-- <script src=//consent.trustarc.com/notice?domain=trustarc.com&c=teconsent&js=bb&noticeType=bb&pcookie></script> -->
+<!-- <script src=//consent.trustarc.com/notice?domain=trustarc.com&c=teconsent&js=bb&noticeType=bb&pcookie></script> no need. code added via GTM-->
 <style>
 .truste_caIcon_display
 {
@@ -66,8 +66,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <input name="submit" type="submit" value="Login" />
 </form>
 <p>Not registered yet? <a href='registration.php'>Register Here</a></p>
-<!-- <br><div id="consent_blackbar"></div> 
-<p><div id="teconsent" style="display: none;"></div></p> -->
+<br><div id="consent_blackbar"></div> 
+<p><div id="teconsent" style="display: none;"></div></p>
 
 
 <?php } 
