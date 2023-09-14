@@ -66,12 +66,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <input name="submit" type="submit" value="Login" />
 </form>
 <p>Not registered yet? <a href='registration.php'>Register Here</a></p>
-<br><div id="consent_blackbar"></div> 
 <p><div id="teconsent" style="display: none;"></div></p>
 
 
 <?php } 
 ?>
+<br><div id="consent_blackbar"></div> 
 
 
 </body>
