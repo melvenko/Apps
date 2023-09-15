@@ -22,7 +22,9 @@ img.truste_border_none.truste_cursor_pointer{
         width: 235px;
         height: 40px;
 }
-
+#irm-id-034807222535100246{
+	display: none;
+}
 </style>
 <title>Melvenko Login</title>
 <link rel="stylesheet" href="style.css" />
