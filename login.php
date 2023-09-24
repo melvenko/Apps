@@ -26,6 +26,9 @@ img.truste_border_none.truste_cursor_pointer{
 #irm-id-034807222535100246{
 	display: none;
 }
+#YTvideo{
+	float: left;
+}
 </style>
 <title>Melvenko Login</title>
 <link rel="stylesheet" href="style.css" />
