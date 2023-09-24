@@ -79,5 +79,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="YTvideo" class="reg-elements">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/Lffeb73sCx4?si=-POMG6FvYqrxIEmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+<center><div id="google-ads">
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1426934089069316"
+     crossorigin="anonymous"></script>
+<!-- php login -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1426934089069316"
+     data-ad-slot="1774009499"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></center>
 </body>
 </html>
