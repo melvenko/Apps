@@ -28,6 +28,7 @@ img.truste_border_none.truste_cursor_pointer{
 }
 #YTvideo{
 	float: left;
+	border: 1 px solid #000;
 }
 </style>
 <title>Melvenko Login</title>
