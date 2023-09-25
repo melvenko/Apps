@@ -131,7 +131,7 @@ img.truste_border_none.truste_cursor_pointer{
 
 <?php } 
 ?>
-<!-- 			<center><div id="google-ads">
+		<center><div id="google-ads">
 			  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1426934089069316"
      crossorigin="anonymous"></script>
 		
@@ -144,7 +144,7 @@ img.truste_border_none.truste_cursor_pointer{
 		<script>
      			(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-			</div></center> -->
+			</div></center>
 	<div id="footer">
 		<div id="consent_blackbar"></div> 
 	</div>
