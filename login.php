@@ -35,20 +35,23 @@ img.truste_border_none.truste_cursor_pointer{
 	float: left;
 	height: 45px;
 	width: 49%;
+	padding: 2px;
 	border: 1px solid #000;
 }
 .nav{
 	float: right;
 	height: 45px;
 	width: 49%;
+	padding: 2px;
 	border: 1px solid #d13906;
 }
 #main{
 	border: 1px solid #000;
 	height: 500px;
+	padding: 5px;
 }
 #footer{
-	float: top;	
+	float: bottom;	
 }
 	
 </style>
