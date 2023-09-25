@@ -52,9 +52,13 @@ img.truste_border_none.truste_cursor_pointer{
 }
 #header{
 	padding: 5px;
+	height: 45px;
+	border: 1px solid #056312;
+	
 }
 #footer{
 	float: left;	
+	background: #056312;
 }
 	
 </style>
