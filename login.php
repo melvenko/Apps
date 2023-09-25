@@ -46,7 +46,7 @@ img.truste_border_none.truste_cursor_pointer{
 	border: 1px solid #d13906;
 }
 #main{
-	border: 1px solid #000;
+	border: 2px solid #051663;
 	height: 500px;
 	padding: 5px;
 }
