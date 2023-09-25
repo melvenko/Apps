@@ -34,8 +34,11 @@ img.truste_border_none.truste_cursor_pointer{
 .logo {
 	float: left;
 }
+#main{
+	border: 1px solid #000;
+}
 #footer{
-	float: relative;	
+	float: top;	
 }
 	
 </style>
@@ -90,7 +93,6 @@ img.truste_border_none.truste_cursor_pointer{
 			<p>Not registered yet? <a href='registration.php'>Register Here</a></p>
 			<p><div id="teconsent" style="display: none;"></div></p>
 		    </div>
-        		<div>Some more 1</div>
     		</section>
 
     		<!-- Section 2 -->
