@@ -39,11 +39,11 @@ img.truste_border_none.truste_cursor_pointer{
 .nav{
 	float: right;
 	height: 45px;
-	border: 1px solid red;
+	border: 1px solid #d13906;
 }
 #main{
 	border: 1px solid #000;
-	height: relative;
+	height: 500px;
 }
 #footer{
 	float: top;	
