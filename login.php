@@ -63,7 +63,7 @@ img.truste_border_none.truste_cursor_pointer{
 	background-color: rgb(255, 0, 0);opacity:0.6;
 	height: 100px;
 }
-#widget1{
+#google-ads{
 	float:left;
 }
 </style>
@@ -130,7 +130,6 @@ img.truste_border_none.truste_cursor_pointer{
 
 <?php } 
 ?>
-		<div id="widget1">
 			<center><div id="google-ads">
 			  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1426934089069316"
      crossorigin="anonymous"></script>
@@ -145,7 +144,6 @@ img.truste_border_none.truste_cursor_pointer{
      			(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
 			</div></center>
-		</div>
 	<div id="footer">
 		<div id="consent_blackbar"></div> 
 	</div>
