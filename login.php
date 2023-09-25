@@ -34,6 +34,9 @@ img.truste_border_none.truste_cursor_pointer{
 .logo {
 	float: left;
 }
+.nav{
+	float: right;
+}
 #main{
 	border: 1px solid #000;
 }
@@ -100,10 +103,13 @@ img.truste_border_none.truste_cursor_pointer{
         		<div id="YTvideo" class="reg-elements">
 			    <iframe width="560" height="315" src="https://www.youtube.com/embed/Lffeb73sCx4?si=-POMG6FvYqrxIEmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
-        		<center><div id="google-ads">
+    		</section>
+	    </section>  
+
+		<center><div id="google-ads">
 			  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1426934089069316"
      crossorigin="anonymous"></script>
-		<!-- php login -->
+		
 		<ins class="adsbygoogle"
      		style="display:block"
      		data-ad-client="ca-pub-1426934089069316"
@@ -114,8 +120,6 @@ img.truste_border_none.truste_cursor_pointer{
      		(adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
 			</div></center>
-    		</section>
-	    </section>  
 
 <!--- SEPARATOR--->
 		
