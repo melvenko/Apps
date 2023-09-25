@@ -63,9 +63,11 @@ img.truste_border_none.truste_cursor_pointer{
 	background-color: rgb(255, 0, 0);opacity:0.6;
 	height: 100px;
 }
-	
+#widget1{
+	float:left;
+}
 </style>
-<title>Melvenko Login</title>
+<title>Melvenko PHP Form</title>
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -126,31 +128,27 @@ img.truste_border_none.truste_cursor_pointer{
     		</section>
 	    </section>  
 
-		<center><div id="google-ads">
+<?php } 
+?>
+		<div id="widget1">
+			<center><div id="google-ads">
 			  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1426934089069316"
      crossorigin="anonymous"></script>
 		
 		<ins class="adsbygoogle"
-     		style="display:block"
-     		data-ad-client="ca-pub-1426934089069316"
-     		data-ad-slot="1774009499"
-     		data-ad-format="auto"
-     		data-full-width-responsive="true"></ins>
-	<script>
-     		(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
+     			style="display:block"
+     			data-ad-client="ca-pub-1426934089069316"
+     			data-ad-slot="1774009499"
+     			data-ad-format="auto"
+     			data-full-width-responsive="true"></ins>
+		<script>
+     			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
 			</div></center>
-
-<!--- SEPARATOR--->
-		
-
-<?php } 
-?>
-		<div id="widget1">
-	
-	</div>
+		</div>
 	<div id="footer">
 		<div id="consent_blackbar"></div> 
 	</div>
+</div>
 </body>
 </html>
