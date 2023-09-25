@@ -47,11 +47,14 @@ img.truste_border_none.truste_cursor_pointer{
 }
 #main{
 	border: 2px solid #051663;
-	height: 500px;
+	height: 800px;
+	padding: 5px;
+}
+#header{
 	padding: 5px;
 }
 #footer{
-	float: bottom;	
+	float: left;	
 }
 	
 </style>
