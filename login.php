@@ -58,7 +58,10 @@ img.truste_border_none.truste_cursor_pointer{
 }
 #footer{
 	float: left;	
+}
+#consent_blackbar{
 	background-color: rgb(255, 0, 0);opacity:0.6;
+	height: 100px;
 }
 	
 </style>
