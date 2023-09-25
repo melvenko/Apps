@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<script type="text/javascript" crossorigin src='//consent.trustarc.com/notice?domain=melventest.com&c=teconsent'></script>
+<script type="text/javascript" crossorigin src='//consent.trustarc.com/notice?domain=melventest.com&c=teconsent&js=nj&noticeType=bb&text=true&gtm=1'></script>
+	
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
