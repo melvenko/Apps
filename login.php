@@ -29,36 +29,36 @@ img.truste_border_none.truste_cursor_pointer{
 }
 #YTvideo{
 	float: left;
-	border: 1 px solid #000;
+/* 	border: 1 px solid #000; */
 }
 .logo {
 	float: left;
 	height: 45px;
 	width: 49%;
 	padding: 2px;
-	border: 1px solid #000;
+/* 	border: 1px solid #000; */
 }
 .nav{
 	float: right;
 	height: 45px;
 	width: 49%;
 	padding: 2px;
-	border: 1px solid #d13906;
+/* 	border: 1px solid #d13906; */
 }
 #main{
-	border: 2px solid #051663;
+/* 	border: 2px solid #051663; */
 	height: auto;
 	padding: 5px;
 }
 #header{
 	padding: 5px;
 	height: 45px;
-	border: 1px solid #056312;
+/* 	border: 1px solid #056312; */
 	
 }
 #footer{
 	float: left;	
-	background: #056312;
+	background-color: rgb(255, 0, 0);opacity:0.6;
 }
 	
 </style>
