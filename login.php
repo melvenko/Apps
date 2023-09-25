@@ -33,12 +33,17 @@ img.truste_border_none.truste_cursor_pointer{
 }
 .logo {
 	float: left;
+	height: 45px;
+	border: 1px solid #000;
 }
 .nav{
 	float: right;
+	height: 45px;
+	border: 1px solid red;
 }
 #main{
 	border: 1px solid #000;
+	height: relative;
 }
 #footer{
 	float: top;	
