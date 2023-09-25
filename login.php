@@ -31,6 +31,13 @@ img.truste_border_none.truste_cursor_pointer{
 	float: left;
 	border: 1 px solid #000;
 }
+.logo {
+	float: left;
+}
+#footer{
+	float: relative;	
+}
+	
 </style>
 <title>Melvenko Login</title>
 <link rel="stylesheet" href="style.css" />
