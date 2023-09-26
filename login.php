@@ -124,27 +124,14 @@ img.truste_border_none.truste_cursor_pointer{
     		<!-- Section 2 -->
     		<section>	
         		<div id="YTvideo" class="reg-elements">
-			    <iframe width="560" height="315" src="https://www.youtube.com/embed/Lffeb73sCx4?si=-POMG6FvYqrxIEmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- 			    <iframe width="560" height="315" src="https://www.youtube.com/embed/Lffeb73sCx4?si=-POMG6FvYqrxIEmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 			</div>
     		</section>
 	    </section>  
 
 <?php } 
 ?>
-		<center><div id="google-ads">
-			  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1426934089069316"
-     crossorigin="anonymous"></script>
-		
-		<ins class="adsbygoogle"
-     			style="display:block"
-     			data-ad-client="ca-pub-1426934089069316"
-     			data-ad-slot="1774009499"
-     			data-ad-format="auto"
-     			data-full-width-responsive="true"></ins>
-		<script>
-     			(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-			</div></center>
+		<!--original placement of google ads-->
 	<div id="footer">
 		<div id="consent_blackbar"></div> 
 	</div>
