@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<script type="text/javascript" crossorigin src='//consent.trustarc.com/notice?domain=melventest.com&c=teconsent&js=nj&noticeType=bb&text=true&gtm=1'></script>
+<script type="text/javascript" crossorigin src='//consent.trustarc.com/notice?domain=melventest.com&c=teconsent&js=nj&noticeType=bb&text=true&gtm=1&irmc=irmlink'></script>
 	
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -134,6 +134,7 @@ img.truste_border_none.truste_cursor_pointer{
 		<!--original placement of google ads-->
 	<div id="footer">
 		<div id="consent_blackbar"></div> 
+		<div id="irmlink"></div>
 	</div>
 </div>
 </body>
