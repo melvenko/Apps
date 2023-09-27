@@ -118,6 +118,7 @@ img.truste_border_none.truste_cursor_pointer{
 			</form>
 			<p>Not registered yet? <a href='registration.php'>Register Here</a></p>
 			<p><div id="teconsent" style="display: none;"></div></p>
+			<p><div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div></p>
 		    </div>
     		</section>
 
