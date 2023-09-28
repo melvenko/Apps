@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/javascript" crossorigin src='//consent.trustarc.com/notice?domain=melventest.com&c=teconsent&js=nj&noticeType=bb&text=true&gtm=1'></script>
 	
 <!-- Google Tag Manager -->
@@ -13,7 +14,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 	
 <style>
-
+	
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #3498db, #e74c3c);
+            /* Adjust the gradient colors and direction as desired */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+/*             text-align: center; */
+        }
 .indent-1 {float: left;}
 .indent-1 section {width: 50%; float: left;}
 	
