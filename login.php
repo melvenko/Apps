@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script type="text/javascript" crossorigin src='//consent.trustarc.com/notice?domain=melventest.com&c=teconsent&js=nj&noticeType=bb&text=true&gtm=1'></script>
+<script type="text/javascript" async="async" crossorigin src='//consent.trustarc.com/notice?domain=melventest.com&c=teconsent&js=nj&noticeType=bb&text=true&gtm=1'></script>
+<script src="https://consent.trustarc.com/autoblockasset/core.min.js?domain=melventest.com"></script>
+<script src="https://consent.trustarc.com/autoblockoptout?domain=melventest.com"></script>
 	
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
